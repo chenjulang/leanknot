@@ -3,7 +3,7 @@ image:
 
 vscode:
   extensions:
-    - leanprover.lean4
+    - leanprover.lean
 
 tasks:
-  - init: lake exe cache get && lake build +LeanSchool.Common
+  - init: pip3 install -r scripts/requirements.txt
